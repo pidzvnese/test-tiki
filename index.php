@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Test</title>
+	<title>Test PHP Developer Tiki</title>
 </head>
 <body>
 	<form method="post">				
