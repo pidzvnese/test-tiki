@@ -19,12 +19,11 @@
 <?php
 	include_once 'PasswordManager.php';
 
-	$pass = $_POST['password'];
-	$uname = $_POST['username'];
-
-	$pm = new PasswordManager($uname,$pass);
-
 	if(isset($_POST["btn-user"])) {
+		$pass = $_POST['password'];
+		$uname = $_POST['username'];
+
+		$pm = new PasswordManager($uname,$pass);
 
 		if($pm->setNewPassword($pass)){
 			echo '<p>Password is valid.</p>';
